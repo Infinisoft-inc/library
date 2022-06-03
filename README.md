@@ -1,4 +1,4 @@
-# Federated Module Library
+# Standard Library (No Module Federation)
 
 
 Powered 🚀 by [Infinisoft Inc.](https://www.infini-soft.com)

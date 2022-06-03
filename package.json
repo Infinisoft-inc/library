@@ -19,7 +19,8 @@
     "test": "jest",
     "test:watchAll": "jest --watchAll",
     "test:coverage": "jest --coverage&& start analyze/coverage/lcov-report/index.html",
-    "deploy": "kli lib deploy",
+    "publish": "npm publish",
+    "publish:dry-run": "npm publish --dry-run",
     "start:dev": "webpack serve -c webpack.config.dev.js --open",
     "start:prod": "webpack serve -c webpack.config.prod.js --open",
     "serve:dist": "serve -s dist",
@@ -27,13 +28,5 @@
   },
   "devDependencies": {},
   "peerDependencies": {},
-  "infinisoft": {
-    "moduleFederation": {
-      "lib":"{{lib}}",
-      "remotes": {},
-      "exposes": {
-        "./{{lib}}": "./src/{{name}}/{{lib}}"
-      }
-    }
-  }
+  "infinisoft": {}
 }

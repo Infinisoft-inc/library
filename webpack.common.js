@@ -38,15 +38,5 @@ module.exports = {
     ],
   },
   plugins: [
-    new ModuleFederationPlugin({
-      name,
-      filename: 'remoteEntry.js',
-      library: {
-        type: 'var',
-        name,
-      },
-      remotes: infinisoft.moduleFederation.remotes,
-      exposes: infinisoft.moduleFederation.exposes,
-    }),
   ],
 };

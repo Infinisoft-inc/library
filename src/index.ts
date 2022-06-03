@@ -3,4 +3,5 @@
  * Infinisoft Inc.
  * www.infini-soft.com
  */
-import('./bootstrap')
+export { entry } from './entry';
+
