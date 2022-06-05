@@ -28,5 +28,12 @@
   },
   "devDependencies": {},
   "peerDependencies": {},
-  "infinisoft": {}
+  "infinisoft": {
+    "dev":{
+      "remotes": {}
+    },
+    "prod":{
+      "remotes": {}
+    }
+  }
 }
